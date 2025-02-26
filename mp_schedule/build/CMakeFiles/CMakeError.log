@@ -1,0 +1,25 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /software/llvm-6.0.1/bin/clang++ 
+Build flags: ;-stdlib=libc++
+Id flags:  
+
+The output was:
+1
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_end_catch'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_allocate_exception'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_guard_release'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_pure_virtual'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__gxx_personality_v0'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_begin_catch'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_rethrow'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_throw'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `vtable for __cxxabiv1::__si_class_type_info'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_guard_abort'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `vtable for __cxxabiv1::__class_type_info'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_call_unexpected'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `vtable for __cxxabiv1::__vmi_class_type_info'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_free_exception'
+/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/libc++.so: undefined reference to `__cxa_guard_acquire'
+clang-6.0: error: linker command failed with exit code 1 (use -v to see invocation)
+
+

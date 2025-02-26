@@ -1,0 +1,287 @@
+The system is: Linux - 3.10.0-1160.49.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /software/llvm-6.0.1/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/3.17.5/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /software/llvm-6.0.1/bin/clang++ 
+Build flags: ;-stdlib=libc++
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is Clang, found in "/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_68cd9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_68cd9.dir/build.make CMakeFiles/cmTC_68cd9.dir/build
+gmake[1]: Entering directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68cd9.dir/testCCompiler.c.o
+/software/llvm-6.0.1/bin/clang    -o CMakeFiles/cmTC_68cd9.dir/testCCompiler.c.o   -c /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_68cd9
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_68cd9.dir/link.txt --verbose=1
+/software/llvm-6.0.1/bin/clang     -stdlib=libc++ -lc++abi  CMakeFiles/cmTC_68cd9.dir/testCCompiler.c.o  -o cmTC_68cd9 
+gmake[1]: Leaving directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_35b3c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35b3c.dir/build.make CMakeFiles/cmTC_35b3c.dir/build
+gmake[1]: Entering directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o
+/software/llvm-6.0.1/bin/clang   -v -o CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake3/Modules/CMakeCCompilerABI.c
+clang version 6.0.1 (tags/RELEASE_601/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /software/llvm-6.0.1/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/software/llvm-6.0.1/bin/clang-6.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.gcno -resource-dir /software/llvm-6.0.1/lib/clang/6.0.1 -internal-isystem /usr/local/include -internal-isystem /software/llvm-6.0.1/lib/clang/6.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake3/Modules/CMakeCCompilerABI.c
+clang -cc1 version 6.0.1 based upon LLVM 6.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/local/include
+ /software/llvm-6.0.1/lib/clang/6.0.1/include
+ /usr/include
+End of search list.
+Linking C executable cmTC_35b3c
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_35b3c.dir/link.txt --verbose=1
+/software/llvm-6.0.1/bin/clang     -stdlib=libc++ -lc++abi -v CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o  -o cmTC_35b3c 
+clang version 6.0.1 (tags/RELEASE_601/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /software/llvm-6.0.1/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/usr/bin/ld" --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_35b3c /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -L/software/llvm-6.0.1/bin/../lib -L/lib -L/usr/lib -lc++abi CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/local/include]
+    add: [/software/llvm-6.0.1/lib/clang/6.0.1/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/software/llvm-6.0.1/lib/clang/6.0.1/include] ==> [/software/llvm-6.0.1/lib/clang/6.0.1/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/local/include;/software/llvm-6.0.1/lib/clang/6.0.1/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(clang\+\+|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_35b3c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35b3c.dir/build.make CMakeFiles/cmTC_35b3c.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/software/llvm-6.0.1/bin/clang   -v -o CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake3/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 6.0.1 (tags/RELEASE_601/final)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /software/llvm-6.0.1/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/software/llvm-6.0.1/bin/clang-6.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.gcno -resource-dir /software/llvm-6.0.1/lib/clang/6.0.1 -internal-isystem /usr/local/include -internal-isystem /software/llvm-6.0.1/lib/clang/6.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdebug-compilation-dir /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake3/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 6.0.1 based upon LLVM 6.0.1 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /software/llvm-6.0.1/lib/clang/6.0.1/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_35b3c]
+  ignore line: [/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_35b3c.dir/link.txt --verbose=1]
+  ignore line: [/software/llvm-6.0.1/bin/clang     -stdlib=libc++ -lc++abi -v CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o  -o cmTC_35b3c ]
+  ignore line: [clang version 6.0.1 (tags/RELEASE_601/final)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /software/llvm-6.0.1/bin]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_35b3c /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -L/software/llvm-6.0.1/bin/../lib -L/lib -L/usr/lib -lc++abi CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_35b3c] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..]
+    arg [-L/software/llvm-6.0.1/bin/../lib] ==> dir [/software/llvm-6.0.1/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-lc++abi] ==> lib [c++abi]
+    arg [CMakeFiles/cmTC_35b3c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.5]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../..] ==> [/usr/lib]
+  collapse library dir [/software/llvm-6.0.1/bin/../lib] ==> [/software/llvm-6.0.1/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [c++abi;gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.5;/usr/lib64;/lib64;/usr/lib;/software/llvm-6.0.1/lib;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a2a81/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2a81.dir/build.make CMakeFiles/cmTC_a2a81.dir/build
+gmake[1]: Entering directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a2a81.dir/testCXXCompiler.cxx.o
+/software/llvm-6.0.1/bin/clang++    -stdlib=libc++    -std=gnu++17 -o CMakeFiles/cmTC_a2a81.dir/testCXXCompiler.cxx.o -c /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_a2a81
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_a2a81.dir/link.txt --verbose=1
+/software/llvm-6.0.1/bin/clang++   -stdlib=libc++    -stdlib=libc++ -lc++abi  CMakeFiles/cmTC_a2a81.dir/testCXXCompiler.cxx.o  -o cmTC_a2a81 
+gmake[1]: Leaving directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9f12d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f12d.dir/build.make CMakeFiles/cmTC_9f12d.dir/build
+gmake[1]: Entering directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f12d.dir/CMakeCXXCompilerABI.cpp.o
+/software/llvm-6.0.1/bin/clang++    -stdlib=libc++    -v -std=gnu++17 -o CMakeFiles/cmTC_9f12d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp
+clang version 6.0.1 (tags/RELEASE_601/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /software/llvm-6.0.1/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/software/llvm-6.0.1/bin/clang-6.0" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu x86-64 -dwarf-column-info -debugger-tuning=gdb -v -coverage-notes-file /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_9f12d.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /software/llvm-6.0.1/lib/clang/6.0.1 -internal-isystem /software/llvm-6.0.1/bin/../include/c++/v1 -internal-isystem /usr/local/include -internal-isystem /software/llvm-6.0.1/lib/clang/6.0.1/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -std=gnu++17 -fdeprecated-macro -fdebug-compilation-dir /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_9f12d.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 6.0.1 based upon LLVM 6.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /software/llvm-6.0.1/bin/../include/c++/v1
+ /usr/local/include
+ /software/llvm-6.0.1/lib/clang/6.0.1/include
+ /usr/include
+End of search list.
+Linking CXX executable cmTC_9f12d
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_9f12d.dir/link.txt --verbose=1
+/software/llvm-6.0.1/bin/clang++   -stdlib=libc++    -stdlib=libc++ -lc++abi -v CMakeFiles/cmTC_9f12d.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9f12d 
+clang version 6.0.1 (tags/RELEASE_601/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /software/llvm-6.0.1/bin
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.2
+Found candidate GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Selected GCC installation: /usr/lib/gcc/x86_64-redhat-linux/4.8.5
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/usr/bin/ld" --hash-style=gnu --no-add-needed --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9f12d /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. -L/software/llvm-6.0.1/bin/../lib -L/lib -L/usr/lib -lc++abi CMakeFiles/cmTC_9f12d.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/software/llvm-6.0.1/bin/../include/c++/v1]
+    add: [/usr/local/include]
+    add: [/software/llvm-6.0.1/lib/clang/6.0.1/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/software/llvm-6.0.1/bin/../include/c++/v1] ==> [/software/llvm-6.0.1/include/c++/v1]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/software/llvm-6.0.1/lib/clang/6.0.1/include] ==> [/software/llvm-6.0.1/lib/clang/6.0.1/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/software/llvm-6.0.1/include/c++/v1;/usr/local/include;/software/llvm-6.0.1/lib/clang/6.0.1/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(clang\+\+|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_9f12d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9f12d.dir/build.make CMakeFiles/cmTC_9f12d.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/tutor2/cs225git/mp_schedule/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_9f12d.dir/CMakeCXXCompilerABI.cpp.o]
+  link line: [/software/llvm-6.0.1/bin/clang++    -stdlib=libc++    -v -std=gnu++17 -o CMakeFiles/cmTC_9f12d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp]
+    arg [/software/llvm-6.0.1/bin/clang++] ==> ignore
+    arg [-stdlib=libc++] ==> ignore
+    arg [-v] ==> ignore
+    arg [-std=gnu++17] ==> ignore
+    arg [-o] ==> ignore
+    arg [CMakeFiles/cmTC_9f12d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-c] ==> ignore
+    arg [/usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp] ==> ignore
+  implicit libs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

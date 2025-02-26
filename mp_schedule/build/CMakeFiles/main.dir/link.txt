@@ -1,0 +1,1 @@
+/software/llvm-6.0.1/bin/clang++   -stdlib=libc++ -pedantic -Wall -Werror -Wfatal-errors -Wextra -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -g -D_GLIBCXX_DEBUG -O0 -g   -stdlib=libc++ -lc++abi CMakeFiles/main.dir/entry/main.cpp.o  -o main  src/libsrc.a lib/libcs225.a lib/liblodepng.a 
